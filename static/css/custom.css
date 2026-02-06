@@ -5,6 +5,7 @@ aside div img, #aboutme img {
   width: 80%;
   max-width: 400px;
   height: auto;
+  max-height:400px;
   /* aspect-ratio: 1 / 1;  force square (width = height) */
   object-fit: cover;   /* preserves aspect ratio & crops to fill */
   border-radius: 4%;  /* 0% for square corners and other numbers for rounded corner*/
@@ -36,6 +37,7 @@ aside {
   background-color: #ffffff;
   color: #222;
   border-right: 1px solid #eee; /* subtle divider */
+  overflow-y: auto;
 }
 
 /* Add a small lift to the avatar for contrast */
