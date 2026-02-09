@@ -82,6 +82,16 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Main panel text size */
+main article {
+  font-size: 1.25rem; /* try 1.1rem to 1.25rem */
+  line-height: 1.9;
+}
+
+main article h1 { font-size: 2.1rem; }
+main article h2 { font-size: 1.75rem; }
+main article h3 { font-size: 1.35rem; }
+
 main article a {
   color: #1e73be;
 }
